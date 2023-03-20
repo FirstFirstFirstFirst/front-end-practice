@@ -7,12 +7,14 @@ module.exports = {
  
     // Or if using `src` directory:
     "./src/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.{html,js}",
+    "./node_modules/tw-elements/dist/js/**/*.js"
   ],
   theme: {
     extend:
     {
       fontFamily: {'kumbh-sans': ['Kumbh Sans', 'sans-serif'],'inter': ['Inter', 'sans-serif'] }, 
     },
-  plugins: [],
+    plugins: [require("tw-elements/dist/plugin")],
 }
 }

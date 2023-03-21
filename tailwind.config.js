@@ -13,7 +13,10 @@ module.exports = {
   theme: {
     extend:
     {
-      fontFamily: {'kumbh-sans': ['Kumbh Sans', 'sans-serif'],'inter': ['Inter', 'sans-serif'] }, 
+      fontFamily: {
+        'kumbh-sans': ['Kumbh Sans', 'sans-serif'],
+        'inter': ['Inter', 'sans-serif'], 
+        'poppins': ['Poppins', 'sans-serif'] }, 
     },
     plugins: [require("tw-elements/dist/plugin")],
 }

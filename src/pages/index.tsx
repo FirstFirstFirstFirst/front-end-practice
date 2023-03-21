@@ -4,9 +4,8 @@ import Photo from '../../public/news-homepage-main/assets/images/image-top-lapto
 
 const index = () => {
   return (
-    <div className='h-screen bg-red-500'>
-      {/* <img className='h-screen' src="image-top-laptops.jpg" alt="" /> */}
-      <Image className='h-screen' src={Photo} alt='' />
+    <div className='h-screen text-white bg-red-400 font-inter font-bold text-9xl flex items-center justify-center'>
+      HELLO <br/> WORLD
     </div>
   )
 }

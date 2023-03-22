@@ -12,9 +12,9 @@ const ShortNav = () => {
   return (
     <div className='mx-6 md:mx-12 lg:mx-24 font-poppins font-bold'>
         <div className='flex flex-row justify-between items-center h-24 text-gray-500'>
-            <div className='flex md:gap-x-6 items-center h-full'>
+            <div className='flex md:gap-x-0 lg:gap-x-6 items-center h-full'>
                 <Image src={Logo} alt=''/>
-                <div className='hidden md:flex flex-row gap-x-12'>
+                <div className='hidden md:flex flex-row gap-x-8 lg:gap-x-12'>
                   <div className='md:ml-12'>Features</div>
                   <div className='md:flex'>Pricing</div>
                   <div>Resources</div>

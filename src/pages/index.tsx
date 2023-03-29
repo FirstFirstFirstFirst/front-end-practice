@@ -1,9 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import Image from 'next/image'
-import Photo from '../../public/news-homepage-main/assets/images/image-top-laptops.jpg'
 import { useRouter } from 'next/router'
-import {CopyToClipboard} from 'react-copy-to-clipboard';
-import useSwr from "swr";
 
 
 const index = () => {

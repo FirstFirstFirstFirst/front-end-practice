@@ -6,3 +6,40 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bg-shorten {
+    background-image: url('/url-shortening-api-master/url-shortening-api-master/images/bg-shorten-mobile.svg');
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+@media only screen and (min-width: 768px) {
+    .bg-shorten {
+      background-image: url('/url-shortening-api-master/url-shortening-api-master/images/bg-shorten-desktop.svg');
+      background-size: cover;
+    }
+}
+
+.bg-boostLink {
+    background-image: url('/url-shortening-api-master/url-shortening-api-master/images/bg-boost-mobile.svg');
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+@media only screen and (min-width: 768px) {
+    .bg-boostLink {
+      background-image: url('/url-shortening-api-master/url-shortening-api-master/images/bg-boost-desktop.svg');
+      background-size: cover;
+    }
+}
+
+button[id=btn]:after{
+  content: 'Copy';
+  display: block;
+}
+
+button[id=btn]:focus:after{
+  content: 'Copied!';
+  display: block;
+}
+
